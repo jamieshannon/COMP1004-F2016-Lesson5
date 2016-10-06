@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.StrengthLabel = new System.Windows.Forms.Label();
-            this.StengthTextBox = new System.Windows.Forms.TextBox();
+            this.StrengthTextBox = new System.Windows.Forms.TextBox();
             this.DexterityTextBox = new System.Windows.Forms.TextBox();
             this.DexterityLabel = new System.Windows.Forms.Label();
             this.ConstitutionTextBox = new System.Windows.Forms.TextBox();
@@ -46,32 +46,32 @@
             // StrengthLabel
             // 
             this.StrengthLabel.AutoSize = true;
-            this.StrengthLabel.Location = new System.Drawing.Point(67, 75);
+            this.StrengthLabel.Location = new System.Drawing.Point(29, 28);
             this.StrengthLabel.Name = "StrengthLabel";
             this.StrengthLabel.Size = new System.Drawing.Size(90, 22);
             this.StrengthLabel.TabIndex = 0;
             this.StrengthLabel.Text = "Strength";
             // 
-            // StengthTextBox
+            // StrengthTextBox
             // 
-            this.StengthTextBox.Location = new System.Drawing.Point(202, 72);
-            this.StengthTextBox.Name = "StengthTextBox";
-            this.StengthTextBox.ReadOnly = true;
-            this.StengthTextBox.Size = new System.Drawing.Size(137, 30);
-            this.StengthTextBox.TabIndex = 1;
+            this.StrengthTextBox.Location = new System.Drawing.Point(164, 25);
+            this.StrengthTextBox.Name = "StrengthTextBox";
+            this.StrengthTextBox.ReadOnly = true;
+            this.StrengthTextBox.Size = new System.Drawing.Size(76, 30);
+            this.StrengthTextBox.TabIndex = 1;
             // 
             // DexterityTextBox
             // 
-            this.DexterityTextBox.Location = new System.Drawing.Point(202, 116);
+            this.DexterityTextBox.Location = new System.Drawing.Point(164, 69);
             this.DexterityTextBox.Name = "DexterityTextBox";
             this.DexterityTextBox.ReadOnly = true;
-            this.DexterityTextBox.Size = new System.Drawing.Size(137, 30);
+            this.DexterityTextBox.Size = new System.Drawing.Size(76, 30);
             this.DexterityTextBox.TabIndex = 3;
             // 
             // DexterityLabel
             // 
             this.DexterityLabel.AutoSize = true;
-            this.DexterityLabel.Location = new System.Drawing.Point(67, 119);
+            this.DexterityLabel.Location = new System.Drawing.Point(29, 72);
             this.DexterityLabel.Name = "DexterityLabel";
             this.DexterityLabel.Size = new System.Drawing.Size(97, 22);
             this.DexterityLabel.TabIndex = 2;
@@ -79,16 +79,16 @@
             // 
             // ConstitutionTextBox
             // 
-            this.ConstitutionTextBox.Location = new System.Drawing.Point(202, 160);
+            this.ConstitutionTextBox.Location = new System.Drawing.Point(164, 113);
             this.ConstitutionTextBox.Name = "ConstitutionTextBox";
             this.ConstitutionTextBox.ReadOnly = true;
-            this.ConstitutionTextBox.Size = new System.Drawing.Size(137, 30);
+            this.ConstitutionTextBox.Size = new System.Drawing.Size(76, 30);
             this.ConstitutionTextBox.TabIndex = 5;
             // 
             // ConstitutionLabel
             // 
             this.ConstitutionLabel.AutoSize = true;
-            this.ConstitutionLabel.Location = new System.Drawing.Point(67, 163);
+            this.ConstitutionLabel.Location = new System.Drawing.Point(29, 116);
             this.ConstitutionLabel.Name = "ConstitutionLabel";
             this.ConstitutionLabel.Size = new System.Drawing.Size(129, 22);
             this.ConstitutionLabel.TabIndex = 4;
@@ -96,16 +96,16 @@
             // 
             // IntelligenceTextBox
             // 
-            this.IntelligenceTextBox.Location = new System.Drawing.Point(202, 204);
+            this.IntelligenceTextBox.Location = new System.Drawing.Point(164, 157);
             this.IntelligenceTextBox.Name = "IntelligenceTextBox";
             this.IntelligenceTextBox.ReadOnly = true;
-            this.IntelligenceTextBox.Size = new System.Drawing.Size(137, 30);
+            this.IntelligenceTextBox.Size = new System.Drawing.Size(76, 30);
             this.IntelligenceTextBox.TabIndex = 7;
             // 
             // IntelligenceLabel
             // 
             this.IntelligenceLabel.AutoSize = true;
-            this.IntelligenceLabel.Location = new System.Drawing.Point(67, 207);
+            this.IntelligenceLabel.Location = new System.Drawing.Point(29, 160);
             this.IntelligenceLabel.Name = "IntelligenceLabel";
             this.IntelligenceLabel.Size = new System.Drawing.Size(118, 22);
             this.IntelligenceLabel.TabIndex = 6;
@@ -113,16 +113,16 @@
             // 
             // WisdomTextBox
             // 
-            this.WisdomTextBox.Location = new System.Drawing.Point(202, 248);
+            this.WisdomTextBox.Location = new System.Drawing.Point(164, 201);
             this.WisdomTextBox.Name = "WisdomTextBox";
             this.WisdomTextBox.ReadOnly = true;
-            this.WisdomTextBox.Size = new System.Drawing.Size(137, 30);
+            this.WisdomTextBox.Size = new System.Drawing.Size(76, 30);
             this.WisdomTextBox.TabIndex = 9;
             // 
             // WisdomLabel
             // 
             this.WisdomLabel.AutoSize = true;
-            this.WisdomLabel.Location = new System.Drawing.Point(67, 251);
+            this.WisdomLabel.Location = new System.Drawing.Point(29, 204);
             this.WisdomLabel.Name = "WisdomLabel";
             this.WisdomLabel.Size = new System.Drawing.Size(83, 22);
             this.WisdomLabel.TabIndex = 8;
@@ -130,16 +130,16 @@
             // 
             // CharismaTextBox
             // 
-            this.CharismaTextBox.Location = new System.Drawing.Point(202, 292);
+            this.CharismaTextBox.Location = new System.Drawing.Point(164, 245);
             this.CharismaTextBox.Name = "CharismaTextBox";
             this.CharismaTextBox.ReadOnly = true;
-            this.CharismaTextBox.Size = new System.Drawing.Size(137, 30);
+            this.CharismaTextBox.Size = new System.Drawing.Size(76, 30);
             this.CharismaTextBox.TabIndex = 11;
             // 
             // CharismaLabel
             // 
             this.CharismaLabel.AutoSize = true;
-            this.CharismaLabel.Location = new System.Drawing.Point(67, 295);
+            this.CharismaLabel.Location = new System.Drawing.Point(29, 248);
             this.CharismaLabel.Name = "CharismaLabel";
             this.CharismaLabel.Size = new System.Drawing.Size(97, 22);
             this.CharismaLabel.TabIndex = 10;
@@ -148,18 +148,19 @@
             // RollAbilitiesButton
             // 
             this.RollAbilitiesButton.Cursor = System.Windows.Forms.Cursors.Help;
-            this.RollAbilitiesButton.Location = new System.Drawing.Point(71, 359);
+            this.RollAbilitiesButton.Location = new System.Drawing.Point(64, 307);
             this.RollAbilitiesButton.Name = "RollAbilitiesButton";
             this.RollAbilitiesButton.Size = new System.Drawing.Size(140, 37);
             this.RollAbilitiesButton.TabIndex = 12;
             this.RollAbilitiesButton.Text = "Roll Abilities";
             this.RollAbilitiesButton.UseVisualStyleBackColor = true;
+            this.RollAbilitiesButton.Click += new System.EventHandler(this.RollAbilitiesButton_Click);
             // 
             // AbilityForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(410, 505);
+            this.ClientSize = new System.Drawing.Size(281, 379);
             this.Controls.Add(this.RollAbilitiesButton);
             this.Controls.Add(this.CharismaTextBox);
             this.Controls.Add(this.CharismaLabel);
@@ -171,7 +172,7 @@
             this.Controls.Add(this.ConstitutionLabel);
             this.Controls.Add(this.DexterityTextBox);
             this.Controls.Add(this.DexterityLabel);
-            this.Controls.Add(this.StengthTextBox);
+            this.Controls.Add(this.StrengthTextBox);
             this.Controls.Add(this.StrengthLabel);
             this.Font = new System.Drawing.Font("Lucida Sans", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6, 5, 6, 5);
@@ -185,7 +186,7 @@
         #endregion
 
         private System.Windows.Forms.Label StrengthLabel;
-        private System.Windows.Forms.TextBox StengthTextBox;
+        private System.Windows.Forms.TextBox StrengthTextBox;
         private System.Windows.Forms.TextBox DexterityTextBox;
         private System.Windows.Forms.Label DexterityLabel;
         private System.Windows.Forms.TextBox ConstitutionTextBox;
